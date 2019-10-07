@@ -71,6 +71,35 @@ and open the template in the editor.
                 </footer>
 
             </article>
+
+
+            <form>
+                <fieldset>
+                    <legend> Formulário </legend>
+
+                    <p>Insira seu Nome: <input type="text" ></p>
+                    <p>Insira seu E-mail: <input type="email" ></p>
+                    <p>Insira seu Senha: <input type="password" ></p>
+                    <p>Insira o sexo: <input type="radio" name="sexo" > Masculino <input type="radio" name="sexo"> Feminino</p>
+                    <p>Escolha a linguagem: <input type="checkbox" > HTML </p> 
+                    <p>Selecione um curso <select>
+                        <optgroup label="Developer">
+                            <option>HTML5</option>
+                            <option>PHP</option>
+                        </optgroup>
+                    </select>
+                    <p> Range: <input type="range"></p>
+                    <p>Color Pick <input type="color"></p>
+                    <p>Date: <input type="date"></p>
+                    <p>Time: <input type="time" ></p>
+                    <p>Datetime: <input type="datetime-local" ></p>
+                    <p>Month: <input type="month" ></p>
+                    <p>Week: <input type="week" ></p>
+                               
+                    <p><button type="submit">Validar</button></p>
+
+                </fieldset>
+            </form>
             
             <section>
                 <header>
